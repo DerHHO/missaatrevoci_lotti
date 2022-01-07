@@ -46,7 +46,7 @@ tenorNotenAgnusATreLotti = \tempTranspose \relative c' {
   d4 bes2 es4 | % 8
   c4 d4 bes2 \mBreak | % 9
   es4 c4 d2 ( | \barNumberCheck #10
-  es4 f2 es4) | % 11
+  e4 f2 e4) | % 11
   f1 | % 12
   R1*2  | % 14
   r4 f2 es4 | % 15
@@ -221,7 +221,7 @@ metronomZeileAgnusATreLotti = \drummode {
 }
 \include "defAgnusATreLotti.ly"
 
-%***Arbeitspartitur
+%{Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "AgnusATreLotti-Arbeitspartitur"
@@ -261,4 +261,4 @@ metronomZeileAgnusATreLotti = \drummode {
     \transpose c g \chorpartiturGemischtAgnusATreLotti
   }
 }
-%Arbeitspartitur***
+Arbeitspartitur%}

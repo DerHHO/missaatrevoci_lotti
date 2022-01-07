@@ -140,7 +140,7 @@ baritonNotenKyrieATreLotti = \tempTranspose \relative c' {
   f4 bes4.( a8 a4 | % 26
   g2 a4 bes4 ~ | % 27
   bes4 a2 g4 \mBreak | % 28
-  f4 bes4. a8) ~ a4 | % 29
+  f4 bes4. a8 a4) | % 29
   bes4.  bes8 a2  | \barNumberCheck #30
   r4  g4 a4 bes4 | % 31
   c4 ( a4 bes4. a8 | % 32
@@ -221,7 +221,7 @@ bassNotenKyrieATreLotti = \tempTranspose \relative c {
   bes,1\fermata \bar "||"
   r4 bes c d |
   ees c bes ees~ |
-  ees8([ d~] d4 c f~ |
+  ees8([ d] d4 c f~ |
   f8[ ees]~ ees2 d4 |
   c f d ees |
   bes2 f') |
@@ -254,7 +254,7 @@ bassNotenKyrieATreLotti = \tempTranspose \relative c {
   ees4. d8 c2 |
   f4. ees8 d2 |
   g2( f
-  g d2  | % 41
+  ees d2  | % 41
   c bes) |
   f'1~ |
   f2. f4 |
