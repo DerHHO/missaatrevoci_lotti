@@ -142,7 +142,7 @@ baritonNotenSanctusATreLotti = \tempTranspose \relative c' {
   bes2 c2 | % 29
   d4 bes2 a4 | \barNumberCheck #30
   g4 bes4) a4 f4 | % 31
-  g4 a4 es4 d'4 ~ \mBreak | % 32
+  g4 a4 d,4 d'4 ~ \mBreak | % 32
   d4 c2 ( bes4 | % 33
   a4 bes2 a4) | % 34
   bes1 \bar "||"
@@ -234,7 +234,7 @@ bassNotenSanctusATreLotti = \tempTranspose \relative c {
     bes,4 bes2 ( a4 ) | % 29
     g2 ( d2 | \barNumberCheck #30
     es4 bes'4 ) f2 ~ | % 31
-    f2 es4 f4 \mBreak | % 32
+    f2 f4 f4 \mBreak | % 32
     f1 ~ | % 33
     f1 | % 34
     bes1
@@ -356,7 +356,7 @@ metronomZeileSanctusATreLotti = \drummode {
 }
 \include "defSanctusATreLotti.ly"
 
-%{Arbeitspartitur
+%***Arbeitspartitur
 #(set-global-staff-size 20)
 \book {
   \bookOutputName "SanctusATreLotti-Arbeitspartitur"
@@ -367,6 +367,7 @@ metronomZeileSanctusATreLotti = \drummode {
     \removeWithTag #'einzelstimme
     \removeWithTag #'chorpartitur
     \removeWithTag #'midiausgabe
+    \removeWithTag #'maennerausgabe
     \scoreSanctusATreLotti
   }
 }
@@ -389,9 +390,10 @@ metronomZeileSanctusATreLotti = \drummode {
     \removeWithTag #'chorpartitur
     \removeWithTag #'partitur
     \removeWithTag #'einzelstimme
+    \removeWithTag #'maennerausgabe
 
     \unfoldRepeats
     \scoreSanctusATreLotti
   }
 }
-Arbeitspartitur%}
+%Arbeitspartitur***

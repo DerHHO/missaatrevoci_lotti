@@ -221,7 +221,7 @@ metronomZeileAgnusATreLotti = \drummode {
 }
 \include "defAgnusATreLotti.ly"
 
-%{Arbeitspartitur
+%***Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "AgnusATreLotti-Arbeitspartitur"
@@ -261,4 +261,4 @@ metronomZeileAgnusATreLotti = \drummode {
     \transpose c g \chorpartiturGemischtAgnusATreLotti
   }
 }
-Arbeitspartitur%}
+%Arbeitspartitur***
