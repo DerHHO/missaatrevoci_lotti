@@ -63,11 +63,11 @@ tenorNotenKyrieATreLotti = \tempTranspose \relative c' {
   d4 es4 f4( d4 | % 31
   es4. f8 g4 f4 ~ | % 32
   f4 es2 ) d4 \mBreak | % 33
-  c4  d4 es4 f4 ( | % 34
-  g2 f2 | % 35
+  c4  d4 es4 f4 | % 34
+  g2( f2 | % 35
   es2 d2 | % 36
-  c1 ) | % 37
-  d2.  d4   | % 38
+  c1 | % 37
+  d2.)  d4   | % 38
   c1 ^\fermata \bar "||" \mBreak | % 39
   R1*2 | % 41
   r2  f4.  es8  | % 42
@@ -222,7 +222,7 @@ bassNotenKyrieATreLotti = \tempTranspose \relative c {
   r4 bes c d |
   ees c bes ees~ |
   ees8([ d] d4 c f~ |
-  f8[ ees]~ ees2 d4 |
+  f8[ ees] ees2 d4 |
   c f d ees |
   bes2 f') |
   g4. g8 f2 |
@@ -293,7 +293,7 @@ metronomZeileKyrieATreLotti = \drummode {
 }
 \include "defKyrieATreLotti.ly"
 
-%***Arbeitspartitur
+%{Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "KyrieATreLotti-Arbeitspartitur"
@@ -331,4 +331,4 @@ metronomZeileKyrieATreLotti = \drummode {
     \scoreKyrieATreLotti
   }
 }
-%Arbeitspartitur***
+Arbeitspartitur%}

@@ -89,9 +89,9 @@ baritonNotenAgnusATreLotti = \tempTranspose \relative c' {
   R1 | % 2
   f2 g2 | % 3
   a4 f2 bes4 | % 4
-  g4 a4 f4 bes4 \mBreak | % 5
-  bes4 ( a4 ) g2 ( | % 6
-  f4 bes2 a4) | % 7
+  g4( a4) f4 bes4 \mBreak | % 5
+  bes4 ( a4 ) g2 | % 6
+  f4( bes2 a4) | % 7
   bes4 g4 g4 c4 | % 8
   a4 ( bes4 g4 f4 \mBreak | % 9
   g4 a4 bes8 [ g8 ] bes4 ~ | \barNumberCheck #10
@@ -108,7 +108,7 @@ baritonNotenAgnusATreLotti = \tempTranspose \relative c' {
   R1*3 | % 23
   r2 r4 bes'4 ~ \mBreak | % 24
   bes4 a4 bes4 c4 | % 25
-  a4 ( bes4 c2 | % 26
+  a4 ( bes4 c2~ | % 26
   c4 bes8 [ a8 ]) bes2 | % 27
   a4( bes2 a4 ) | % 28
   bes1 ^\fermata \bar "|."
@@ -221,7 +221,7 @@ metronomZeileAgnusATreLotti = \drummode {
 }
 \include "defAgnusATreLotti.ly"
 
-%***Arbeitspartitur
+%{Arbeitspartitur
 #(set-global-staff-size 14)
 \book {
   \bookOutputName "AgnusATreLotti-Arbeitspartitur"
@@ -261,4 +261,4 @@ metronomZeileAgnusATreLotti = \drummode {
     \transpose c g \chorpartiturGemischtAgnusATreLotti
   }
 }
-%Arbeitspartitur***
+Arbeitspartitur%}

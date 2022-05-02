@@ -63,7 +63,7 @@ metronomZeileCredoATreLotti = \drummode {
  }
 \include "defCredoATreLotti.ly"
 
-		%***Arbeitspartitur
+		%{Arbeitspartitur
 		#(set-global-staff-size 14)
 		\book { 
  	\bookOutputName "CredoATreLotti-Arbeitspartitur"
@@ -101,5 +101,5 @@ metronomZeileCredoATreLotti = \drummode {
 	\scoreCredoATreLotti 
  } 
  }
-		%Arbeitspartitur***
+		Arbeitspartitur%}
 		
